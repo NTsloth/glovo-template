@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap");
+
+.yummies {
+  margin: 0 120px;
+}
+
+.yummyIntro {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-left: 8px;
+}
+
+.yummyIntro .yummyIcon img {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+
+.yummyOffers {
+  position: relative;
+  /* width: 100%;
+    height: 100%; */
+  box-sizing: border-box;
+  padding: 8px;
+  background: no-repeat 50% / cover;
+  transition: transform 0.15s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.yummyOffer {
+  flex-basis: calc(25% - 1em);
+  position: relative;
+}
+.yummyOffer img {
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.yummyOffer span {
+  position: absolute;
+  color: #fff;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2px 3px;
+  border-radius: 4px;
+  margin-top: 179px;
+  margin-left: -380px;
+}
+
+.yummyTitle .yummyIcons {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+}
+
+.yummyIcons h4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 300;
+}
+
+.yummyIcons h4 p {
+  color: #6e6e6e;
+  margin-left: 7px;
+}
+
+.yummyTitle h3 {
+  font-size: 20px;
+  font-family: "Sawarabi Gothic", sans-serif;
+  color: #000;
+  font-weight: 700;
+}
+
+.yummyIcons img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 1200px) {
+  .yummies {
+    margin: 0;
+  }
+}

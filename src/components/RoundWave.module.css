@@ -1,0 +1,8 @@
+.roundWave {
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    background-color: #fff;
+    margin-top: -50px;
+}

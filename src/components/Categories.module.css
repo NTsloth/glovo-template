@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.Categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 150px;
+}
+
+.Categories .CAtegoriesSvg {
+  width: 140px;
+  height: 140px;
+}
+
+.Categories h2 {
+  font-size: 32px;
+  color: #000;
+}
+
+.Categories .CategoriesBtns {
+  width: 950px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Categories .CategoriesBtns button {
+  background-color: #fff3da;
+  border-radius: 20px;
+  color: #000;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 8px 24px;
+  border: none;
+  margin: 6px 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+
+.Categories .CategoriesBtns button:hover {
+  background-color: #ffc244;
+}

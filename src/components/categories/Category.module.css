@@ -1,0 +1,25 @@
+.dummy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.dummy h1 {
+    font-size: 100px;
+    color: #000;
+    margin: 10% 0 2% 0;
+}
+
+.dummy div {
+    font-size: 30px;
+    color: rgb(77, 73, 73);
+}
+
+.dummy img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 2%;
+}

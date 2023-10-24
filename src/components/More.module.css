@@ -1,0 +1,64 @@
+.more .moreAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.more .moreAbout .moreLogo {
+  height: 121px;
+  width: 82px;
+}
+
+.more .moreAbout h2 {
+  font-size: 40px;
+  color: #000;
+  font-weight: 800;
+}
+
+.more .moreCategories {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  justify-content: center;
+  margin-top: 103px;
+}
+
+.more .moreCategories .moreCategorie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+  justify-content: center;
+  width: 373px;
+  height: 445px;
+}
+
+.more .moreCategories .moreCategorie img {
+  width: 254px;
+  height: 220px;
+}
+
+.more .moreCategories .moreCategorie h3 {
+  font-size: 23px;
+  color: #000;
+}
+
+.more .moreCategories .moreCategorie p {
+  text-align: center;
+  height: 130px;
+}
+
+.more .moreCategories .moreCategorie .categoriesBtn {
+  color: #fff;
+  background-color: #00a082;
+  padding: 20px 60px;
+  border: none;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.categoriesBtn:hover {
+  opacity: 0.6;
+}
